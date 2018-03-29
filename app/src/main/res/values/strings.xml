@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AMenu</string>
+	<string name="pricetext">$0          0cal</string>
+	<string name="welcome">Welcome to CIS399 Restaurant</string>
+	<string name="neworder">Order</string>
+	<string name="check">Check</string>
+	<string name="title">Menu</string>
+    <string name="price">$10 200cal</string>
+	<string name="name">Pizza</string>
+	<string name="pricet"></string>
+	<string name="namet"></string>
+	<string name="news">New?</string>
+    <string name="pricett">pricett</string>
+</resources>

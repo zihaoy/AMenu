@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+
+    <TextView
+        android:id="@+id/WelcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:text="@string/welcome"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/ratingBar" />
+
+    <Button
+        android:id="@+id/NewOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/neworder"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/WelcomeText"
+        android:layout_alignStart="@+id/WelcomeText"
+        android:layout_marginStart="57dp" />
+
+    <Button
+        android:id="@+id/Check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/check"
+        android:layout_below="@+id/NewOrder"
+        android:layout_alignStart="@+id/NewOrder" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/news"
+        android:layout_alignBaseline="@+id/NewOrder"
+        android:layout_alignBottom="@+id/NewOrder"
+        android:layout_toEndOf="@+id/NewOrder"
+        android:layout_marginStart="15dp" />
+
+    <ListView
+        android:id="@+id/itemsListViewT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_below="@+id/WelcomeText"
+        android:layout_toEndOf="@+id/WelcomeText"
+        android:layout_marginTop="13dp" />
+
+    <TextView
+        android:id="@+id/PricetextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pricett"
+        android:textSize="30sp"
+        android:layout_alignBaseline="@+id/WelcomeText"
+        android:layout_alignBottom="@+id/WelcomeText"
+        android:layout_alignStart="@+id/itemsListViewT"
+        android:layout_marginStart="11dp" />
+
+
+</RelativeLayout>
